@@ -1,39 +1,46 @@
+*{
+    margin: 0;
+    padding: 0; /* To remove default padding n margin */
+}
+
 body{
+    font-family: "Outfit", sans-serif;
     background-color: hsl(212, 45%, 89%);
     display: flex;
     justify-content: center;
-    height: 100vh;
-    align-items: center;
-    margin: 0;
+    align-items: center; /* To center the card */
+    min-height: 100vh; /* To expand height of the body */
+    font-size: 15px; /* As given in instructions */
 }
 
 .container{
+    max-width: 360px;
+    border-radius: 15px;
+}
+
+.card{
     background-color: hsl(0, 0%, 100%);
-    padding: 20px;
-    width: 300px;
-    height: 490px;
-    border-radius: 15px;
-}
-
-.img{
-    width: 100%;
-    border-radius: 15px;
-}
-
-.para{
-    font-family: "Outfit", sans-serif;
+    padding: 18px;
+    border-radius: 17px;
     text-align: center;
+    margin: 0 1em; /* to give space at left/right while in smaller screen size */
 }
 
-.para1{
-    font-weight: 700;
-    font-size: 1.5em;
+.card img{
+    width: 100%;
+    border-radius: 12px;
 }
 
-.para2{
-    font-size: 1em;
+.text{
+    padding: 22px 10px; /* For top/bottom & for left/right */
+}
+
+.text h2{
+    color: hsl(218, 44%, 22%);
+    padding-bottom: 15px;
+}
+
+.text p{
     color: hsl(220, 15%, 55%);
-    padding-left: 5px;
-    padding-right: 5px;
 }
 
