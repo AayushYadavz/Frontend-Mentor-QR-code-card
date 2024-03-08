@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0; /* To remove default padding n margin */
+    padding: 0;
 }
 
 body{
@@ -8,14 +8,10 @@ body{
     background-color: hsl(212, 45%, 89%);
     display: flex;
     justify-content: center;
-    align-items: center; /* To center the card */
-    min-height: 100vh; /* To expand height of the body */
-    font-size: 15px; /* As given in instructions */
-}
-
-.container{
-    max-width: 360px;
-    border-radius: 15px;
+    align-items: center; 
+    min-height: 100vh;
+    font-size: 1rem;
+    padding: 1rem;
 }
 
 .card{
@@ -23,16 +19,17 @@ body{
     padding: 18px;
     border-radius: 17px;
     text-align: center;
-    margin: 0 1em; /* to give space at left/right while in smaller screen size */
+    max-width: 20rem;
 }
 
 .card img{
-    width: 100%;
+    display: block;
+    max-width: 100%;
     border-radius: 12px;
 }
 
 .text{
-    padding: 22px 10px; /* For top/bottom & for left/right */
+    padding: 22px 10px;
 }
 
 .text h2{
